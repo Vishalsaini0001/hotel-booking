@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FrontExterior } from './FrontExterior'
 import { HotelLobby } from './HotelLobby'
-import { H_Room } from './H_Room'
+import { Hroom } from './Hroom'
 import { Dinning } from './Dinning'
 import { Spa } from './Spa'
 import { Pool } from './Pool'
@@ -34,7 +34,7 @@ const Gallery = () => {
           </button>
           {CurrentIndex===3 && 
           <div className= "md:hidden">
-          <H_Room/>
+          <Hroom/>
           </div>}
           <button className={`py-6 px-5 text-left border-b-4 hover:border-sky-500 ${CurrentIndex===4?"border-sky-500 text-sky-500":"border-slate-50"} hover:text-sky-500  cursor-pointer`} onClick={()=>{setCurrentIndex(4)}}>
             <p>DINNING</p>
@@ -65,7 +65,7 @@ const Gallery = () => {
 
 {CurrentIndex===1 && <FrontExterior></FrontExterior>}
 {CurrentIndex===2 && <HotelLobby></HotelLobby>}
-{CurrentIndex===3 && <H_Room></H_Room>}
+{CurrentIndex===3 && <Hroom></Hroom>}
 {CurrentIndex===4 && <Dinning></Dinning>}
 {CurrentIndex===5 && <Spa></Spa>}
 {CurrentIndex===6 && <Pool></Pool>}
