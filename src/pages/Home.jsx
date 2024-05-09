@@ -146,18 +146,29 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+
+
 <div>
 <div className="flex justify-around  p-2 lg:p-10 md:p-32">
           <div className="text-4xl text-slate-700 ">OUR FAVORITE ROOMS</div>
         </div>
+
+
       <div class="grid grid-cols-1 md:grid-cols-4 p-2 sm:gap-5 sm:p-32 gap-1">
   <img class="object-cover h-full col-span-1 md:col-span-2 row-span-2 rounded-2xl" src={room1} alt="Modern Room"/>
-  <img class="object-cover w-full h-full col-span-2 md:col-span-1 rounded-2xl" src={room2} alt="Luxury Room"/>
+  <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room2} alt="Luxury Room"/>
   <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room3} alt="Premium Room"/>
   <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl " src={room4} alt="Single Room"/>
   <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room5} alt="Single Room"/>
 </div>
+
 </div>
+
+
+
+
 
       <div className="bg-[#f9f9f9] mt-20">
         <div className="flex justify-around  p-20">
