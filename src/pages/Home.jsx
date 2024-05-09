@@ -147,28 +147,39 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
-<div>
-<div className="flex justify-around  p-2 lg:p-10 md:p-32">
+      <div>
+        <div className="flex justify-around  p-2 lg:p-10 md:p-32">
           <div className="text-4xl text-slate-700 ">OUR FAVORITE ROOMS</div>
         </div>
 
-
-      <div class="grid grid-cols-1 md:grid-cols-4 p-2 sm:gap-5 sm:p-32 gap-1">
-  <img class="object-cover h-full col-span-1 md:col-span-2 row-span-2 rounded-2xl" src={room1} alt="Modern Room"/>
-  <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room2} alt="Luxury Room"/>
-  <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room3} alt="Premium Room"/>
-  <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl " src={room4} alt="Single Room"/>
-  <img class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl" src={room5} alt="Single Room"/>
-</div>
-
-</div>
-
-
-
-
+        <div class="grid grid-cols-1 md:grid-cols-4 p-2 sm:gap-5 sm:p-32 gap-1">
+          <img
+            class="object-cover h-full col-span-1 md:col-span-2 row-span-2 rounded-2xl"
+            src={room1}
+            alt="Modern Room"
+          />
+          <img
+            class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl"
+            src={room2}
+            alt="Luxury Room"
+          />
+          <img
+            class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl"
+            src={room3}
+            alt="Premium Room"
+          />
+          <img
+            class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl "
+            src={room4}
+            alt="Single Room"
+          />
+          <img
+            class="object-cover w-full h-full col-span-1 md:col-span-1 rounded-2xl"
+            src={room5}
+            alt="Single Room"
+          />
+        </div>
+      </div>
 
       <div className="bg-[#f9f9f9] mt-20">
         <div className="flex justify-around  p-20">
@@ -225,7 +236,7 @@ const Home = () => {
               <img src={place1} alt="" class="max-w-full h-auto" />
             </div>
             <div class="flex justify-center items-center">
-              <img  src={place2} alt="" class="max-w-full h-auto rounded-lg" />
+              <img src={place2} alt="" class="max-w-full h-auto rounded-lg" />
             </div>
 
             <div class="flex justify-center items-center col-span-2 md:col-span-1">
@@ -238,61 +249,67 @@ const Home = () => {
         </div>
       </div>
 
-     <div className="bg-[#f9f9f9]">
-<div className="text-center text-4xl text-slate-700 pt-20 pb-16">
-OUR GUESTS LOVE US
-</div>
-      <div class="flex mx-auto justify-center gap-3 flex-wrap pb-16 ">
-    <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
-        <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
-            <p class="text-lg font-normal text-gray-600 "> "Every year, we come back to FT  hotel <br />for our holiday.  It was  <br />extremely interesting and enjoyable <br />  ! We are happy with our <br /> stay in this hotel.".</p>
-           
-        </blockquote>
-        <figcaption class="flex items-center justify-center ">
-            <img class="rounded-full w-10 h-10" src={feed1} alt="profile"/>
-            <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
+      <div className="bg-[#f9f9f9]">
+        <div className="text-center text-4xl text-slate-700 pt-20 pb-16">
+          OUR GUESTS LOVE US
+        </div>
+        <div class="flex mx-auto justify-center gap-3 flex-wrap pb-16 ">
+          <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
+            <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
+              <p class="text-lg font-normal text-gray-600 ">
+                {" "}
+                "Every year, we come back to FT hotel <br />
+                for our holiday. It was <br />
+                extremely interesting and enjoyable <br /> ! We are happy with
+                our <br /> stay in this hotel.".
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center ">
+              <img class="rounded-full w-10 h-10" src={feed1} alt="profile" />
+              <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
                 <div>Bonnie Green</div>
                 <div class="text-sm text-gray-500 ">American</div>
-            </div>
-        </figcaption>  
-          
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
-        <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
-            <p class="text-lg font-normal text-gray-600 "> "Every year, we come back to FT  hotel <br /> for our holiday.  It was  <br />extremely interesting and enjoyable <br />  ! We are happy with our <br /> stay in this hotel.".</p>
-           
-        </blockquote>
-        <figcaption class="flex items-center justify-center ">
-            <img class="rounded-full w-10 h-10" src={feed2} alt="profile"/>
-            <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
+            <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
+              <p class="text-lg font-normal text-gray-600 ">
+                {" "}
+                "Every year, we come back to FT hotel <br /> for our holiday. It
+                was <br />
+                extremely interesting and enjoyable <br /> ! We are happy with
+                our <br /> stay in this hotel.".
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center ">
+              <img class="rounded-full w-10 h-10" src={feed2} alt="profile" />
+              <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
                 <div>Peek Thakul</div>
                 <div class="text-sm text-gray-500 ">France</div>
-            </div>
-        </figcaption>  
-          
-    </figure>
-    <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
-        <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
-            <p class="text-lg font-normal text-gray-600 "> "Every year, we come back to FT  hotel <br /> for our holiday.  It was  <br />extremely interesting and enjoyable <br />  ! We are happy with our <br /> stay in this hotel.".</p>
-           
-        </blockquote>
-        <figcaption class="flex items-center justify-center ">
-            <img class="rounded-full w-10 h-10" src={feed3} alt="profile"/>
-            <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="flex flex-col items-center justify-center p-6 text-center bg-white shadow-2xl hover:shadow-lg rounded-lg  md:rounded-lg md:border ">
+            <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
+              <p class="text-lg font-normal text-gray-600 ">
+                {" "}
+                "Every year, we come back to FT hotel <br /> for our holiday. It
+                was <br />
+                extremely interesting and enjoyable <br /> ! We are happy with
+                our <br /> stay in this hotel.".
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center ">
+              <img class="rounded-full w-10 h-10" src={feed3} alt="profile" />
+              <div class="space-y-0.5 font-medium  text-left rtl:text-right ms-3">
                 <div>Ralph Edwards</div>
                 <div class="text-sm text-gray-500 ">American</div>
-            </div>
-        </figcaption>  
-          
-    </figure>
-    
-    </div>
-    </div>
-
-    
-
-
-
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </>
   );
 };
