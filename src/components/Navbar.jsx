@@ -51,7 +51,7 @@ function Navbar() {
           <IoCartOutline />
         </NavLink>
         <NavLink to="/">
-          <button className="border p-2 text-sm rounded font-medium bg-slate-50 shadow-lg hover:border-black        ">
+          <button className="border p-2 text-sm rounded font-medium bg-slate-50 shadow-lg hover:border-black">
             Login
           </button>
         </NavLink>
