@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <header className="w-full h-24  grid grid-cols-[10rem,1fr,2fr,1fr,10rem] lg:border-b  items-center sticky top-0 bg-white opacity-90	">
+    <header className="w-full h-24  grid grid-cols-[10rem,1fr,2fr,1fr,10rem] lg:border-b  items-center sticky top-0 bg-white opacity-90 z-50	">
       <div className="lg:col-start-2 lg:col-end-3 lg:grid lg:content-center lg:text-2xl grid content-center text-2xl justify-items-center ">
       <NavLink to="/">
           <img className="" src={logo} alt="" />
@@ -38,11 +38,12 @@ function Navbar() {
           Services
         </NavLink>
         
-        <NavLink className={`hover:scale-110 hover:text-black`} to="Blog">
-          Blog
-        </NavLink>
+        
         <NavLink className={`hover:scale-110 hover:text-black`} to="Gallery">
           Gallery
+        </NavLink>
+        <NavLink className={`hover:scale-110 hover:text-black`} to="Contact">
+          Contact
         </NavLink>
       </nav>
 

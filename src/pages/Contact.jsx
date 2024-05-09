@@ -12,7 +12,7 @@ import { FaYoutube } from "react-icons/fa6";
 const Contact = () => {
   return (
     <>
-    <div className='xl:flex xl:flex-row lg:flex lg:flex-row  '> 
+    <div className='xl:flex xl:flex-row lg:flex lg:flex-row mt-32 '> 
       {/* card */}
     <div className=" flex flex-col justify-center  text-gray-700 bg-cyan-600 shadow-md bg-clip-border rounded-xl m-2 w-[95%] lg:w-96 md:w-[50%] md:ml-52 lg:m-5">
           <h1 className="text-white text-3xl font-semibold mt-5 ml-6  ">
@@ -140,7 +140,7 @@ const Contact = () => {
 
       
     </div>
-    <div className='my-4'>
+    <div className='mt-20'>
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.7055461305604!2d76.83906957503727!3d30
         .726677285926307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef0799d5c1c3%3A0xbe2c79bd70a0973!

@@ -39,10 +39,10 @@ const Room = () => {
   return (
     <div>
       <div
-        className=" relative w-full bg-no-repeat h-[234px] bg-center  contrast-125  md:h-[234px] md:bg-cover lg:h-[234px] lg:bg-cover"
+        className=" relative w-full bg-no-repeat h-[234px] bg-center  contrast-125  md:h-[234px] md:bg-cover lg:h-[234px] lg:bg-cover "
         style={{ backgroundImage: `url(${roombanner})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-20">
+        <div className="absolute inset-0 bg-black bg-opacity-20 ">
           <h1 className="text-center text-white tracking-wide font-normal text-5xl  pt-20 font-barlow-condensed ">
             ROOMS
           </h1>
