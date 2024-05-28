@@ -30,7 +30,7 @@ const Home = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (count < 90) {
+      if (count < 90 ) {
         setCount((prevCount) => prevCount + 1);
       }
     }, 10);
