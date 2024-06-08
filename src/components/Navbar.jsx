@@ -87,6 +87,7 @@ function Navbar() {
             >
               Room
             </NavLink>
+            
            
             <NavLink
               to="Blog"
@@ -96,12 +97,20 @@ function Navbar() {
               Blogs
             </NavLink>
             <NavLink
+              to="Gallery"
+              className="block px-8 py-2 m-5  hover:text-black "
+              onClick={closeDropdown}
+            >
+              Gallery
+            </NavLink>
+            <NavLink
               to="Contact"
               className="block px-8 py-2 m-5  hover:text-black "
               onClick={closeDropdown}
             >
               Contact
             </NavLink>
+           
           </div>
         )}
       </div>

@@ -2,7 +2,6 @@ import React from "react";
 import home1 from "../assets/images/header-home1.jpg";
 import home2 from "../assets/images/home 2.jpeg";
 import sign from "../assets/images/signture2.png";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState, useEffect } from "react";
 import room1 from "../assets/images/room1.jpg";
@@ -30,7 +29,7 @@ const Home = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (count < 90 ) {
+      if (count < 90) {
         setCount((prevCount) => prevCount + 1);
       }
     }, 10);
@@ -59,8 +58,6 @@ const Home = () => {
 
     return () => clearInterval(interval);
   }, [yetAnotherCount]);
-  const [checkIn, setCheckIn] = useState(new Date());
-  const [checkOut, setCheckOut] = useState(new Date());
 
   return (
     <>
@@ -79,34 +76,7 @@ const Home = () => {
             beautiful sea city.
           </p>
         </div>
-        <div className="hidden absolute  bg-white rounded-lg shadow-md  lg:w-[900px] mx-10 my-10 flex flex-col sm:flex-col md:flex-row lg:flex-row gap-4 p-8 md:h-[120px] lg:h-[120px] md:mx-6 md:my-6  ">
-          <div>
-            <div className="text-slate-500">Check in</div>
-            <DatePicker
-              className="border-r border-gray-300 p-2 w-full text-black  md:h-[45px] lg:h-[45px] "
-              placeholderText="DD-MM-YYYY ^"
-              dateFormat="dd/MM/yyyy"
-              minDate={new Date()}
-              onChange={(e) => setCheckIn(e)}
-            />
-          </div>
 
-          <div>
-            <div className="text-slate-500">Check in</div>
-            <DatePicker
-              className="border-r border-gray-300 p-2 w-full  md:h-[45px] lg:h-[45px]"
-              placeholderText="DD-MM-YYYY ^"
-              dateFormat="dd/MM/yyyy"
-              onChange={(e) => setCheckOut(e)}
-            />
-          </div>
-          <div>
-            <div className="text-slate-500">Guest</div>
-            <div>
-              <p className="mt-2 text-slate-400">4 Persons </p>
-            </div>
-          </div>
-        </div>
         <div className="p-2 sm:p-0">
           <img src={home1} alt="header" />
         </div>
@@ -129,8 +99,12 @@ const Home = () => {
       </div>
 
       <div className="flex justify-center flex-col sm:flex-row sm:mt-32 bg-[#f9f9f9] p-5 ">
-        <div className="p-2 sm:p-0 ">
-          <img src={home2} alt="home2" />
+        <div className=" p-2 sm:p-0 ">
+          <img
+            className="rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%]"
+            src={home2}
+            alt="home2"
+          />
         </div>
         <div className="">
           <p className="text-4xl text-center font-bold mt-10">
