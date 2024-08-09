@@ -18,7 +18,7 @@ const Blog = () => {
             <img src={img} alt="img" />
           </div>
           <div>
-            <h1 className="text-3xl font-bold mt-6">Visiting Beach resort</h1>
+            <h1 className="text-3xl font-bold mt-6">Visiting Beach resort.</h1>
           </div>
           <div className="">
             <ul className="flex gap-5 mt-3 text-stone-500">

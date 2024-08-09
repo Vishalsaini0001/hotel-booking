@@ -1,4 +1,4 @@
-import { useState } from "react";
+ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -78,7 +78,7 @@ function Navbar() {
               className="block px-8 py-2 m-5  hover:text-black "
               onClick={closeDropdown}
             >
-              About
+              About 
             </NavLink>
             <NavLink
               to="Room"
