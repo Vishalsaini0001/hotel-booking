@@ -14,9 +14,7 @@ const Blog = () => {
    
       <div className="  sm:m-20 m-5 flex-col ">
         <div>
-          <div>
-            <img src={img} alt="img" />
-          </div>
+          
           <div>
             <h1 className="text-3xl font-bold mt-6">Visiting Beach resort.</h1>
           </div>
