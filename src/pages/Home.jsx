@@ -63,7 +63,9 @@ const Home = () => {
     <>
       <div className="flex justify-around  flex-col sm:flex-row">
         <div className="text-center">
-          
+        <p className="text-sky-600 text-xl sm:mt-40 mt-0 animate-bounce">
+            Welcome home
+          </p>
           <p className="sm:text-6xl text-4xl  sm:mt-6 mt-2 font-semibold ">
             Our world is your <br /> playground.
           </p>
