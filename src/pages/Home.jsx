@@ -110,7 +110,11 @@ const Home = () => {
           <p className="text-4xl text-center font-bold mt-10">
             Beach Hotel More <br /> than a stay
           </p>
-        
+          <p className="text-center  text-slate-500 mt-10">
+            We have a lot of effort to bring more quality time to you <br /> and
+            the people you love. You will have a chance to enjoy <br />{" "}
+            meaningful moments together and that’s reason why <br /> we’re here.
+          </p>
           <div className="flex justify-end mt-5 p-2">
             <img src={sign} alt="sign" />
           </div>
