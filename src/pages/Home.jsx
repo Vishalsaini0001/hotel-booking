@@ -27,7 +27,12 @@ import feed3 from "../assets/images/feed3.jpeg";
 const Home = () => {
   const [count, setCount] = useState(0);
 
-  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (count < 90) {
+        setCount((prevCount) => prevCount + 1);
+      }
+    }, 10);
 
     return () => clearInterval(interval);
   }, [count]);
