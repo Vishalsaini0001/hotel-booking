@@ -22,9 +22,9 @@ const Blog = () => {
           </div>
           <div className="">
             <ul className="flex gap-5 mt-3 text-stone-500">
-              <li>
+            <li>
                 <IoCalendarOutline className="text-cyan-600 text-xl" />{" "}
-                02/03/2022
+                02/03/2024
               </li>
               <li>
                 <RiAdminLine className="text-cyan-600 text-xl" />
