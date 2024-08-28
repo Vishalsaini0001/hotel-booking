@@ -28,7 +28,7 @@ const Blog = () => {
               </li>
               <li>
                 <RiAdminLine className="text-cyan-600 text-xl" />
-                admin
+                Admin
               </li>
               <li>
                 <FaRegCommentDots className="text-cyan-600 text-xl" />
