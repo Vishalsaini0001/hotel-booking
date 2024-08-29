@@ -271,7 +271,7 @@ const Home = () => {
                 "Every year, we come back to FT hotel <br /> for our holiday. It
                 was <br />
                 extremely interesting and enjoyable <br /> ! We are happy with
-                our <br /> stay in this hotel.".
+                our <br /> stay in this hotel".
               </p>
             </blockquote>
             <figcaption class="flex items-center justify-center ">
