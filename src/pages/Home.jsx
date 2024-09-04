@@ -268,7 +268,7 @@ const Home = () => {
             <blockquote class="w-xl mx-auto mb-4 text-gray-200 lg:mb-8 ">
               <p class="text-lg font-normal text-gray-600 ">
                 {" "}
-                "Every year, We come back to FT hotel <br /> for our holiday. It
+                "Every year, We come back to Ft hotel <br /> for our holiday. It
                 was <br />
                 extremely interesting and enjoyable <br /> ! We are happy with
                 our <br /> stay in this hotel".
