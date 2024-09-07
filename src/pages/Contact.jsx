@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="mt-14 ml-6">
             <ul className="text-white ">
               <li className="mb-3 inline-">  
-                <MdEmail /> Hotel.np@gamil.com
+                <MdEmail /> Hotel.npm@gamil.com
               </li>relative
               <li className="mb-3">
                 <FaPhoneVolume /> 
