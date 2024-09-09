@@ -21,7 +21,7 @@ const Contact = () => {
           <p className="text-white ml-6 mt-1">Contact information</p>
           <div className="mt-14 ml-6">
             <ul className="text-white ">
-              <li className="mb-3 inline-">  
+              <li className="mb-3 inline">  
                 <MdEmail /> Hotel.npm@gamil.com
               </li>relative
               <li className="mb-3">
