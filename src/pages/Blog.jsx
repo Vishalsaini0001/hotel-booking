@@ -41,7 +41,7 @@ const Blog = () => {
             <p className="mt-6 text-stone-500 sm:text-base text-sm ">
               I joined Coinbase about two months ago to establish and lead a new
               tech hub for Coinbase in India. In this blog post,
-              <br /> I wanted to share bit about our plan and ambitions in
+              <br /> I wanted to share. bit about our plan and ambitions in
               india
             </p>
           </div>
