@@ -32,7 +32,7 @@ const Blog = () => {
               </li>
               <li>
                 <FaRegCommentDots className="text-cyan-600 text-xl" />
-                Comment off
+                Comment Off
               </li>
             </ul>
           </div>
