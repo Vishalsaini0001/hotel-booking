@@ -26,7 +26,7 @@ const Contact = () => {
               </li>relative
               <li className="mb-3">
                 <FaPhoneVolume /> 
-                +8478178011
+                +84781780111
               </li>
               <li>
                 <AiFillHome />
